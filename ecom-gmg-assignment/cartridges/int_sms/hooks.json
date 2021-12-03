@@ -1,0 +1,8 @@
+{
+    "hooks": [
+        {
+            "name": "dw.sfcc.storefront.afterOrderPlace",
+            "script": "./cartridge/scripts/hooks/order.js"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "folders": [
+        {
+            "path": "storefront-reference-architecture-master"
+        },
+        {
+            "path": "#Connection"
+        },
+        {
+            "path": "ecom-gmg-assignment"
+        }
+    ],
+    "settings": {
+        "search.exclude": {
+            ".git/**": true,
+            "**/node_modules/**": true,
+            "**/cartridge/static/default/**": true,
+            "**/test/**": true
+        },
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.renderWhitespace": "all"
+    },
+    "launch": {
+        "configurations": [
+            {
+                "type": "prophet",
+                "request": "launch",
+                "name": "SFCC Debugger"
+            }
+        ]
+    }
+}
